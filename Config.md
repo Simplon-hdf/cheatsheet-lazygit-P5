@@ -23,8 +23,11 @@ gui:
     inactiveBorderColor:
       - white
   showIcons: true
+  
   showFileTree: true
+  
   nerdFontsVersion: "3"
+  
   
 git:
   paging:
