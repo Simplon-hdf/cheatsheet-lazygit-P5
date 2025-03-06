@@ -1,4 +1,4 @@
-#Configuration initiale de Lazygitlg#
+# Configuration initiale de Lazygitlg #
 
 Lazygit stocke ses fichiers de configuration dans :
 
@@ -43,7 +43,7 @@ Points clés de cette configuration :
  -Utilisation de delta pour un affichage amélioré des logs Git
  -Raccourcis personnalisés pour les actions courantes
 
-##Ajout d’un alias pour un accès rapide##
+## Ajout d’un alias pour un accès rapide ##
 
 Pour exécuter Lazygit avec lg, ajoutez cet alias :
 echo 'alias lg="lazygit"' >> ~/.bashrc
