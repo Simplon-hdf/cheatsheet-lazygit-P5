@@ -1,6 +1,11 @@
 # Table des matières
 
 - [Introduction](./introduction.md)
+    - [Qu'est-ce que Lazygit ?](./introduction.md#qu'est-ce-que-lazygit)
+        - [Les avantages de Lazygit](./introduction.md#les-avantages-de-lazygit)
+        - [Pour qui est-ce fait ?](./introduction.md#pour-qui-est-ce-fait)
+        - [Pourquoi utiliser Lazygit ?](./introduction.md#pourquoi-utiliser-lazygit)
+        - [Alternative aux interfaces graphiques](./introduction.md#alternative-aux-interfaces-graphiques)
 
 
 - [Installation](./installation.md)
