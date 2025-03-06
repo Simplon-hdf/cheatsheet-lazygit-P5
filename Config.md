@@ -14,8 +14,9 @@ nano ~/.config/lazygit/config.yml
 ### Exemple de configuration avancée : ###
 
 gui:
+
   theme:
-    activeBorderColor:
+     activeBorderColor:
       - cyan
       - bold
     inactiveBorderColor:
@@ -37,7 +38,7 @@ keybinding:
   files:
     commitChanges: "c"
 
-Points clés de cette configuration :
+** Points clés de cette configuration : **
  -Activation des icônes et des polices Nerd Fonts
  -Personnalisation des couleurs de l’interface
  -Utilisation de delta pour un affichage amélioré des logs Git
