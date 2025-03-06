@@ -47,9 +47,22 @@ Les paquets pour Arch Linux sont accessibles via pacman et l'AUR (Arch User Repo
 
 Deux versions sont disponibles : la version stable, qui est basée sur la dernière version officielle, et la version git, qui se construit à partir des derniers commits.
 
-Stable :  ```sudo pacman -S lazygit```
+Stable :  ``` sudo pacman -S lazygit```
 
 [Version Developpement](https://aur.archlinux.org/packages/lazygit-git/)
 
+### macOS 
 
+#### via Homebrew 
 
+Normalement, la formule de LazyGit est disponible dans le dépôt principal de Homebrew, mais nous vous conseillons d'ajouter notre dépôt pour obtenir une version mise à jour plus fréquemment. Elle fonctionne aussi sous Linux.
+
+Avec notre dépôt :
+```bash 
+brew install jesseduffield/lazygit/lazygit
+```
+
+via le dépôt principal :
+```bash
+brew install lazygit
+```
