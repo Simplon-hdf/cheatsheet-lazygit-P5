@@ -16,6 +16,7 @@ nano ~/.config/lazygit/config.yml
 gui:
 
   theme:
+  
      activeBorderColor:
       - cyan
       - bold
