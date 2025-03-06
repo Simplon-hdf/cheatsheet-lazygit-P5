@@ -30,25 +30,30 @@ gui:
   
   
 git:
+
   paging:
+  
     colorArg: always
     pager: delta --dark --paging=never
-  branchLogCmd: "git log --oneline --graph --decorate --color=always"
+    branchLogCmd: "git log --oneline --graph --decorate --color=always"
 
 keybinding:
+
   universal:
-    quit: "q"
-    return: "<esc>"
+  quit: "q"
+  return: "<esc>"
   files:
-    commitChanges: "c"
+  commitChanges: "c"
 
 ** Points clés de cette configuration : **
+
  -Activation des icônes et des polices Nerd Fonts
  -Personnalisation des couleurs de l’interface
  -Utilisation de delta pour un affichage amélioré des logs Git
  -Raccourcis personnalisés pour les actions courantes
 
 ## Ajout d’un alias pour un accès rapide ##
+
 
 Pour exécuter Lazygit avec lg, ajoutez cet alias :
 echo 'alias lg="lazygit"' >> ~/.bashrc
