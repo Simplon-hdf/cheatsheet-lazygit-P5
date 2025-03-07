@@ -34,7 +34,13 @@
         - [Cadre General](./getting-started.md#cadre-general)
 
 
-- [Configuration & Raccourcis Clavier](./configuration.md)
+- [Configuration & Alias](./configuration.md)
+    - [Configuration initiale de Lazygit](./configuration.md#configuration-initiale-de-lazygit)
+        - [Créer et modifier le fichier de configuration](./configuration.md#créer-et-modifier-le-fichier-de-configuration)
+    - [Exemple de configuration avancée](./configuration.md#exemple-de-configuration-avancée)
+        - [Explication des paramètres](./configuration.md#explication-des-paramètres)
+    - [Ajout d’un alias pour un accès rapide](./configuration.md#ajout-d’un-alias-pour-un-accès-rapide)
+    - [Résumé des améliorations](./configuration.md#résumé-des-améliorations)
   
 
 - [Utilisation](./usage.md)
