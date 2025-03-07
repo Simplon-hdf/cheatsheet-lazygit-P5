@@ -1,4 +1,4 @@
-# Configuration initiale de Lazygitlg
+# Configuration initiale de Lazygit
 
 Lazygit stocke ses fichiers de configuration dans :
 - 📂 **Linux/macOS** : `~/.config/lazygit/config.yml`
