@@ -1,7 +1,11 @@
 ## Comment ça marche 
 
 L'écran est divisé en plusieurs zones :
-![Image](https://camo.githubusercontent.com/70ab6a6226fd3242ae4dc3f3b7216908517e0754d67537d2a37f7cb0202a6784/68747470733a2f2f692e696d6775722e636f6d2f4e6962713335422e706e67)
+- **Files** : Vos fichiers modifiés et en attente de commit
+- **Branches** : Toutes vos branches (locales et distantes)
+- **Commits** : L'historique de vos commits
+- **Stash** : Vos modifications mises de côté
+- **Status** : L'état de votre dépôt
 
 ## Se déplacer dans l'interface 
 

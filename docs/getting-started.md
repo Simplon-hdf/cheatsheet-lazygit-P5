@@ -1,64 +1,98 @@
-## Prise en main de Lazygit
-
-### Premier lancement
-
-Pour démarrer Lazygit :
-1. Ouvrez votre terminal
-2. Naviguez vers un dossier Git (`cd votre-projet`)
-3. Tapez la commande `lazygit`
-
-### Comprendre l'interface
-
-L'interface de Lazygit est divisée en plusieurs zones : 
-- Files
-- Commits
-- Branches
-- Commandes
-
-### Navigation de base
-
-- Utilisez les flèches `↑` `↓` pour vous déplacer dans un cadre
-- `Tab` pour passer au cadre suivant
-- `q` pour quitter
-- `?` pour afficher l'aide
-
-### Premiers pas : Workflow basique
-
-#### 1. Gestion des fichiers modifiés
-- Naviguez dans le cadre "Files"
-- Utilisez `espace` pour ajouter un fichier au staging
-- `a` pour tout ajouter d'un coup
-- `d` pour voir les modifications d'un fichier
-
-#### 2. Faire un commit
-1. Après avoir stagé vos fichiers
-2. Appuyez sur `c`
-3. Écrivez votre message de commit
-4. Appuyez sur `Entrée` pour valider
-
-#### 3. Gestion des branches
-- `n` pour créer une nouvelle branche
-- `o` pour changer de branche
-- `b` pour voir toutes les branches
-
-### Commandes essentielles à retenir
-
-#### Cadre Files
-- `espace` : Stage/unstage fichier
-- `a` : Stage tous les fichies
-- `d` : Voir les différences
-
-#### Cadre Branches
-- `n` : Nouvelle branche
-- `o` : Checkout branche
-- `m` : Merger une branche
-
-#### Commandes générales
-- `p` : Push
-- `P` : Pull
-- `q` : Quitter
-- `?` : Aide
+# Prise en main de LazyGit
 
 ---
 
-Maintenant que vous connaissez les bases, vous pouvez passer aux fonctionnalités plus avancées dans la section [Utilisation](./usage.md).
+## Premier lancement
+
+```bash
+# Lancement simple
+lazygit
+
+# Avec alias (recommandé)
+lg
+```
+
+---
+
+## Interface principale
+
+| Zone | Description |
+|------|-------------|
+| **Status** | État des fichiers et du dépôt |
+| **Files** | Liste des fichiers modifiés |
+| **Branches** | Gestion des branches locales et distantes |
+| **Commits** | Historique des commits |
+| **Stash** | Liste des modifications mises de côté |
+
+---
+
+## Navigation de base
+
+| Touche | Action |
+|--------|--------|
+| `↑/↓` | Navigation dans les listes |
+| `←/→` | Changement de panneau |
+| `h/j/k/l` | Navigation vim-style |
+| `?` | Aide contextuelle |
+| `q` | Retour/Quitter |
+
+---
+
+## Workflow basique
+
+### 1. Gestion des fichiers
+
+```bash
+# Dans le panneau Files
+space    # Ajouter/retirer un fichier du stage
+a        # Tout ajouter au stage
+d        # Voir les différences
+```
+
+### 2. Faire des commits
+
+```bash
+# Dans n'importe quel panneau
+c    # Commit
+C    # Commit avec message détaillé
+```
+
+### 3. Gestion des branches
+
+```bash
+# Dans le panneau Branches
+n    # Nouvelle branche
+b    # Checkout
+M    # Merge
+```
+
+---
+
+## Commandes essentielles
+
+### Panneau Files
+* `space` - Stage/unstage fichier
+* `a` - Stage tout
+* `d` - Voir les différences
+* `D` - Reset fichier
+
+### Panneau Branches
+* `n` - Nouvelle branche
+* `o` - Créer une pull request
+* `M` - Merge
+* `r` - Rebase
+
+### Commandes globales
+* `?` - Aide
+* `q` - Retour
+* `esc` - Retour
+* `@` - Ouvrir le menu des commandes
+
+> **Astuce** : Appuyez sur `?` dans n'importe quel panneau pour voir toutes les commandes disponibles.
+
+---
+
+## Prochaines étapes
+
+* [Guide complet](usage.md) - Pour maîtriser toutes les fonctionnalités
+* [Configuration](configuration.md) - Pour personnaliser LazyGit

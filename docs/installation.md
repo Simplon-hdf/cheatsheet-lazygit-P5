@@ -1,68 +1,88 @@
-## Installation 
+# Installation de LazyGit
 
-### Windows 
+> **Prérequis** : Git doit être installé sur votre système avant de procéder à l'installation de LazyGit.
 
-#### Via [Chocolatey](https://chocolatey.org/install)
+---
 
-Videos d'installation de [ChocoLatey](https://www.youtube.com/watch?v=M-A7os3qEiM&t=2s)
+## Windows
 
-```bash
-# Installation de lazygit
+### Installation via Chocolatey
+
+```powershell
+# Installation en une ligne
 choco install lazygit
 ```
 
-#### via scoop [Scoop](https://scoop.sh/)
+1. [Installez Chocolatey](https://chocolatey.org/install) si nécessaire
+2. Ouvrez PowerShell en administrateur
+3. Exécutez la commande d'installation
+4. Vérifiez avec `lazygit --version`
 
-vidéos d'installation [scoop](https://www.youtube.com/watch?v=sZS7mG_zhaw)
+> 📺 [Voir le tutoriel vidéo](https://www.youtube.com/watch?v=M-A7os3qEiM&t=2s)
 
-```bash
-# Ajouter le bucket extras
+### Installation via Scoop
+
+```powershell
+# Ajout du bucket et installation
 scoop bucket add extras
-
-# Installer lazygit
-scoop install lazygit 
+scoop install lazygit
 ```
 
-### Linux 
 
-#### via Ubuntu
+1. [Installez Scoop](https://scoop.sh/) si nécessaire
+2. Ouvrez PowerShell
+3. Ajoutez le bucket extras
+4. Installez LazyGit
+5. Vérifiez avec `lazygit --version`
 
-```bash 
-LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+> 📺 [Voir le tutoriel vidéo](https://www.youtube.com/watch?v=sZS7mG_zhaw)
+
+---
+
+## Linux
+
+### Ubuntu/Debian
+
+```bash
+# Installation automatique
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": *"v\K[^"]*')
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 tar xf lazygit.tar.gz lazygit
 sudo install lazygit -D -t /usr/local/bin/
-```
 
-Vérifier que la bonne version de lazygit a été installée:
-
-```bash
+# Vérification
 lazygit --version
 ```
 
+### Arch Linux
 
-#### via Arch Linux 
+| Version | Commande | Description |
+|---------|----------|-------------|
+| **Stable** | `sudo pacman -S lazygit` | Version recommandée |
+| **Dev** | Via [AUR](https://aur.archlinux.org/packages/lazygit-git/) | Dernières fonctionnalités |
 
-Les paquets pour Arch Linux sont accessibles via pacman et l'AUR (Arch User Repository).
+> **Note** : La version stable est recommandée pour la plupart des utilisateurs.
 
-Deux versions sont disponibles : la version stable, qui est basée sur la dernière version officielle, et la version git, qui se construit à partir des derniers commits.
+---
 
-Stable :  ``` sudo pacman -S lazygit```
+## macOS
 
-[Version Developpement](https://aur.archlinux.org/packages/lazygit-git/)
+### Installation via Homebrew
 
-### macOS 
+| Source | Commande | Note |
+|--------|----------|------|
+| **Dépôt officiel** | `brew install jesseduffield/lazygit/lazygit` | Recommandé |
+| **Dépôt principal** | `brew install lazygit` | Alternative |
 
-#### via Homebrew 
+> **Info** : Le dépôt officiel fournit des mises à jour plus fréquentes.
 
-Normalement, la formule de LazyGit est disponible dans le dépôt principal de Homebrew, mais nous vous conseillons d'ajouter notre dépôt pour obtenir une version mise à jour plus fréquemment. Elle fonctionne aussi sous Linux.
+---
 
-Avec notre dépôt :
-```bash 
-brew install jesseduffield/lazygit/lazygit
-```
+## Vérification de l'installation
 
-via le dépôt principal :
 ```bash
-brew install lazygit
+# Vérifiez que LazyGit est correctement installé
+lazygit --version
 ```
+
+> **Succès** : Si la commande affiche la version, LazyGit est prêt à être utilisé !
