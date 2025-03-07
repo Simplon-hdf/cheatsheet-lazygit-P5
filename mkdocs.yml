@@ -9,12 +9,13 @@ extra_css:
 nav:
   - Accueil: index.md
   - Installation: installation.md
+  - Démarrage: getting-started.md
   - Utilisation: usage.md
 
 site_description: Guide d'utilisation de LazyGit
 site_author: Zabi,Lucas,Emerick,Sofiane
 repo_url: https://github.com/Simplon-hdf/cheatsheet-lazygit-P5
-repo_name: jSimplon-hdf/cheatsheet-lazygit-P5
+
 
 plugins:
   - search:
