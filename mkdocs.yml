@@ -12,9 +12,9 @@ nav:
   - Utilisation: usage.md
 
 site_description: Guide d'utilisation de LazyGit
-site_author: Sofiane
-repo_url: https://github.com/jesseduffield/lazygit
-repo_name: jesseduffield/lazygit
+site_author: Zabi,Lucas,Emerick,Sofiane
+repo_url: https://github.com/Simplon-hdf/cheatsheet-lazygit-P5
+repo_name: jSimplon-hdf/cheatsheet-lazygit-P5
 
 plugins:
   - search:
