@@ -1,0 +1,22 @@
+site_name: 😴 CheatSheet LazyGit
+theme:
+  name: simple-blog
+  language: fr
+
+extra_css:
+  - stylesheet  s/extra.css
+
+nav:
+  - Accueil: index.md
+  - Installation: installation.md
+  - Démarrage: getting-started.md
+  - Utilisation: usage.md
+
+site_description: Guide d'utilisation de LazyGit
+site_author: Zabi,Lucas,Emerick,Sofiane
+repo_url: https://github.com/Simplon-hdf/cheatsheet-lazygit-P5
+
+
+plugins:
+  - search:
+      lang: fr
