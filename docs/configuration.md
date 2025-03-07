@@ -1,8 +1,10 @@
 # Configuration initiale de Lazygit
 
 Lazygit stocke ses fichiers de configuration dans :
-- 📂 **Linux/macOS** : `~/.config/lazygit/config.yml`
-- 📂 **Windows** : `C:\Users\VotreNom\AppData\Roaming\lazygit\config.yml`
+
+📂 **Linux/macOS** : `~/.config/lazygit/config.yml`
+
+📂 **Windows** : `C:\Users\VotreNom\AppData\Roaming\lazygit\config.yml`
 
 ---
 ##  Créer et modifier le fichier de configuration
