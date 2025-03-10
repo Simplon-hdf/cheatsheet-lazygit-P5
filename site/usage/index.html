@@ -1,0 +1,258 @@
+<!doctype html>
+<html data-bs-theme="">
+    <head>
+                <title>Utilisation - 😴 LazyGit</title>
+
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            
+            
+            <meta name="author" content="Zabi,Lucas,Emerick,Sofiane">
+
+            
+                <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+            
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../assets/css/root.min.css">
+            <link rel="stylesheet" href="../assets/css/main.min.css">
+                <link href="../stylesheet  s/extra.css" rel="stylesheet">
+                <script src="../search/main.js"></script>
+
+            
+                
+            
+    </head>
+
+    <body>
+        <div class="container py-3">
+            <header>
+                    <!-- block header -->
+<nav class="navbar navbar-expand-xl border-bottom">
+    <div class="container-fluid">
+        
+
+        
+            <span class=" fs-4 title-color site-name" id="component-site-name" style="text-transform: uppercase;">😴 LazyGit</span>
+        
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+            aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+            <ul class="navbar-nav">
+
+                <!-- block menu -->
+                <li class="nav-item">
+                    <!-- block menu -->
+    
+        <li class="nav-item" id="component-menu">
+            <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="..">[Accueil]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../installation/">[Installation]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../getting-started/">[Démarrage]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" active 
+                            nav-link text-gray text-decoration-none" href="./">[Utilisation]</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="
+                            nav-link text-gray text-decoration-none" href="../configuration/">[Configuration]</a>
+                        </li>
+            </ul>
+        </li>
+<!-- endblock -->
+                </li>
+                <!-- endblock -->
+
+                <!-- block search -->
+                <li class="nav-item">
+                    <a class="collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <div class="md-search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                </li>
+                <!--  endblock -->
+
+                <!-- block source -->
+                <li class="nav-item">
+                    
+                        
+                    
+                </li>
+                <!--  endblock -->
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--  endblock -->
+            </header>
+
+            <main><!-- block search -->
+<div class="collapse" id="collapseExample">
+    <div role="search" class="search-box">
+        <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+            <input type="text" name="q" class="search-query"
+            placeholder="Search docs" title="Type search term here" />
+        </form>
+    </div>
+</div>
+<!-- endblock -->
+
+                
+                        <!-- block content -->
+<section class="container post" id="component-content">
+    <article>
+        <header>
+            
+                <h1 class=" title" id="component-title">Utilisation</h1>
+            
+        </header>
+        <p><h2 id="comment-ca-marche">Comment ça marche</h2>
+<p>L'écran est divisé en plusieurs zones :
+<img alt="Image" src="https://camo.githubusercontent.com/70ab6a6226fd3242ae4dc3f3b7216908517e0754d67537d2a37f7cb0202a6784/68747470733a2f2f692e696d6775722e636f6d2f4e6962713335422e706e67" /></p>
+<h2 id="se-deplacer-dans-linterface">Se déplacer dans l'interface</h2>
+<h3 id="les-bases">Les bases</h3>
+<ul>
+<li><code>tab</code> → Change de zone</li>
+<li><code>h/j/k/l</code> ou flèches → Se déplace dans la zone active</li>
+<li><code>?</code> → Affiche l'aide</li>
+<li><code>q</code> → Quitte l'application</li>
+<li><code>esc</code> → Retourne en arrière</li>
+</ul>
+<h3 id="ajuster-laffichage">Ajuster l'affichage</h3>
+<ul>
+<li><code>+</code> / <code>-</code> → Agrandit ou réduit la zone</li>
+<li><code>_</code> → Passe en plein écran</li>
+</ul>
+<h2 id="les-commandes-de-base">Les commandes de base</h2>
+<h3 id="gerer-vos-fichiers">Gérer vos fichiers</h3>
+<pre><code class="language-bash">espace    # Ajoute/Retire un fichier du prochain commit
+a         # Ajoute/Retire tous les fichiers du prochain commit
+d         # Annule les changements du fichier
+e         # Ouvre le fichier dans votre éditeur
+o         # Ouvre le fichier avec le programme par défaut
+</code></pre>
+<h3 id="gerer-vos-commits">Gérer vos commits</h3>
+<pre><code class="language-bash">c         # Crée un commit
+A         # Modifie le dernier commit
+z         # Annule la dernière action
+ctrl+z    # Rétablit la dernière action annulée
+</code></pre>
+<h3 id="gerer-vos-branches">Gérer vos branches</h3>
+<pre><code class="language-bash">n         # Crée une branche
+o         # Change de branche
+O         # Cherche et change de branche
+M         # Fusionne des branches
+P         # Récupère les changements du serveur
+p         # Envoie vos changements au serveur
+</code></pre>
+<h2 id="fonctions-avancees">Fonctions avancées</h2>
+<h3 id="rebase-interactif">Rebase interactif</h3>
+<p>Choisissez un commit et tapez <code>i</code> pour démarrer le rebase :</p>
+<pre><code class="language-bash">s         # Fusionne avec le commit du dessus en gardant les messages
+f         # Fusionne avec le commit du dessus sans garder le message
+d         # Supprime le commit
+e         # Arrête pour modifier le commit
+ctrl+j/k  # Déplace le commit vers le haut/bas
+</code></pre>
+<h3 id="cherry-pick">Cherry-pick</h3>
+<pre><code class="language-bash">shift+c   # Copie un commit
+shift+v   # Colle le commit copié
+</code></pre>
+<h3 id="stash">Stash</h3>
+<pre><code class="language-bash">s         # Met de côté vos changements
+g         # Récupère les changements mis de côté
+d         # Supprime les changements mis de côté
+shift+S   # Autres options pour la mise de côté
+</code></pre>
+<h2 id="comprendre-les-couleurs-de-linterface">Comprendre les couleurs de l'interface</h2>
+<h3 id="les-commits">Les commits</h3>
+<ul>
+<li>🟢 <strong>Vert</strong> : Le commit est dans votre branche principale</li>
+<li>🟡 <strong>Jaune</strong> : Le commit n'est pas dans votre branche principale</li>
+<li>🔴 <strong>Rouge</strong> : Le commit n'est pas encore envoyé au serveur</li>
+</ul>
+<h3 id="raccourcis-importants">Raccourcis importants</h3>
+<ul>
+<li><code>m</code> → Lance un rebase interactif</li>
+<li><code>shift+P</code> → Pousse (push) les changements vers le dépôt distant</li>
+<li><code>shift+?</code> → Affiche tous les raccourcis disponibles</li>
+</ul>
+<h2 id="conseils">Conseils</h2>
+<ul>
+<li>Appuyez sur <code>?</code> dans chaque zone pour voir les commandes disponibles</li>
+<li>Utilisez les raccourcis clavier, c'est plus rapide</li>
+<li>Le rebase interactif est plus facile avec LazyGit qu'en ligne de commande</li>
+</ul></p>
+    </article>
+</section>
+<!-- endblock -->
+                
+                
+            </main>
+
+            
+                    <!-- block preview -->
+    <div class="preview row row-cols-md-3 text-center pt-md-3" id="component-preview">
+        <div class="col themed-grid-col">
+            <a rel="prev" href="../getting-started/" class="nav-link">
+                <i class="fa fa-arrow-left"></i> Previous
+            </a>
+        </div>
+        <div class="col themed-grid-col"></div>
+        <div class="col themed-grid-col">
+            <a rel="next" href="../configuration/" class="nav-link">
+                Next <i class="fa fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+<!-- endblock -->
+            
+
+            
+                    <!-- block footer -->
+<footer class="pt-4 my-md-5 pt-md-5 border-top" id="component-footer">
+    <div class="row">
+        <div class="col-12 col-md">
+                <!-- block copyright -->
+
+    <small class="d-block mb-3">
+        Made with
+        <a href="https://github.com/FernandoCelmer/mkdocs-simple-blog" target="_blank" rel="noopener">
+            Simple Blog for MkDocs
+        </a>
+    </small>
+
+<!-- endblock -->
+        </div>
+    </div>
+</footer>
+<!-- endblock -->
+            
+        </div>
+
+            <script>var base_url = '..';</script>
+            <script src="../assets/js/jquery-3.3.1.slim.min.js""></script>
+            <script src="../assets/js/bootstrap.bundle.min.js""></script>
+            <script src="../assets/js/main.min.js""></script>
+                <script src="../search/main.js" defer></script>
+
+    </body>
+
+</html>
